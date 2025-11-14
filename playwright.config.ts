@@ -1,18 +1,22 @@
 
 
 import { defineConfig } from '@playwright/test';
+import path from 'path';
 
 export default defineConfig({
-    timeout: 900000, // Global timeout for each test
-    workers: 1, // Run tests sequentially (you can increase in CI)
+    globalSetup: path.resolve('./src/utils/Login.ts'),
+    testDir: './tests',
+    timeout: 900000,
+    workers: 1,
     use: {
-        // storageState: 'auth.json',
+        baseURL: process.env.BASE_URL,
         headless: false,
+        storageState: 'auth.json',
         channel: 'chrome',
         viewport: null,
         screenshot: 'only-on-failure',
-        video: 'retain-on-failure',
-        trace: 'retain-on-failure',
+        // video: 'retain-on-failure',
+        // trace: 'retain-on-failure',
         //navigationTimeout: 60000,
         actionTimeout: 45000,
         launchOptions: {

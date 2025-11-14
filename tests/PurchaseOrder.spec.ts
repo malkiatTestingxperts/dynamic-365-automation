@@ -2,8 +2,8 @@
 import { test } from "@playwright/test";
 import { click, launchURL, findElementUniversal } from "@tx/playwright-core";
 
-test("login", async ({ page }) => {
-    await launchURL(page, "https://google.com");
+test("Purchase Order", async ({ page }) => {
+    await launchURL(page, '/');
     const searchBox = await findElementUniversal(
         page, ['input[name="3q1"]', '[jsname="yZiJb0e"]', '[class="gLFyf"]'], "Search Box"
     );
