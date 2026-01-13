@@ -1,0 +1,1 @@
+[2026-01-13T05:18:01.786Z] [INFO] Launching application at: https://businesscentral.dynamics.com/

@@ -1,0 +1,2 @@
+[2026-01-13T05:18:01.786Z] [INFO] Launching application at: https://businesscentral.dynamics.com/
+[2026-01-13T05:18:05.475Z] [INFO] Application launched successfully. Page title: "Dynamics 365 Business Central"

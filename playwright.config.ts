@@ -4,7 +4,7 @@ import { defineConfig } from '@playwright/test';
 import path from 'path';
 
 export default defineConfig({
-    globalSetup: path.resolve('./src/utils/Login.ts'),
+    // globalSetup: path.resolve('./src/utils/Login.ts'),
     testDir: './tests',
     timeout: 900000,
     workers: 1,
@@ -24,7 +24,9 @@ export default defineConfig({
         },
     },
     reporter: [
-        ['blob'], // for test runs
-        ['html', { outputFolder: 'playwright-reports/merged', open: 'never' }]
+        ['list'],
+        ['allure-playwright']
+        // ['blob'], // for test runs
+        // ['html', { outputFolder: 'playwright-reports/merged', open: 'never' }]
     ]
 });

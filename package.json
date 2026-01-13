@@ -13,6 +13,8 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@types/dotenv": "^6.1.1"
+    "@types/dotenv": "^6.1.1",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.4"
   }
 }

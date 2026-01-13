@@ -50,7 +50,7 @@ export async function login(page: Page, baseURL: string, username: string, pwd: 
   await type(loginPage, passwordSelector, pwd);
 
   await click(loginPage, nextSelector);
-
+  await page.waitForTimeout(40000);
   const cancelSelector = await findElementUniversal(loginPage, cancelButton, "Cancel Button");
   await waitForElementToVisible(loginPage, cancelSelector);
   await click(loginPage, nextSelector);
@@ -63,7 +63,7 @@ export async function login(page: Page, baseURL: string, username: string, pwd: 
 export default async function globalSetup() {
   const browser = await chromium.launch({
     channel: "chrome",
-    headless: true,
+    headless: false,
   });
 
   const context = await browser.newContext();

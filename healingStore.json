@@ -1,0 +1,396 @@
+{
+  "[name=\"loginfmt\"]": {
+    "original": "[name=\"loginfmt\"]",
+    "healed": "[name=\"loginfmt\"]",
+    "candidates": [
+      {
+        "type": "css-id",
+        "selector": "#i0116",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-id",
+        "selector": "input#i0116",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-id",
+        "selector": "xpath=//input[@id=\"i0116\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@id=\"i0116\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[aria-label=\"Enter your email or phone\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[aria-label=\"Enter your email or phone\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@aria-label=\"Enter your email or phone\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-aria",
+        "selector": "[aria-label=\"Enter your email or phone\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-aria",
+        "selector": "input[aria-label=\"Enter your email or phone\"]",
+        "score": 95,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-name",
+        "selector": "[name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-name",
+        "selector": "input[name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-name",
+        "selector": "xpath=//input[@name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".form-control",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.form-control",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"form-control\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".ltr_override",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.ltr_override",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"ltr_override\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".input",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.input",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"input\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".ext-input",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.ext-input",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"ext-input\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".text-box",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.text-box",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"text-box\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-class",
+        "selector": ".ext-text-box",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-class",
+        "selector": "input.ext-text-box",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-class",
+        "selector": "xpath=//input[contains(@class,\"ext-text-box\")]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[type=\"email\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[type=\"email\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@type=\"email\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@name=\"loginfmt\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[id=\"i0116\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[id=\"i0116\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[maxlength=\"113\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[maxlength=\"113\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@maxlength=\"113\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[aria-required=\"true\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[aria-required=\"true\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@aria-required=\"true\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[data-report-event=\"Signin_Email_Phone_Skype\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[data-report-event=\"Signin_Email_Phone_Skype\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@data-report-event=\"Signin_Email_Phone_Skype\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[data-report-value=\"Email_Phone_Skype_Entry\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[data-report-value=\"Email_Phone_Skype_Entry\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@data-report-value=\"Email_Phone_Skype_Entry\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[autocomplete=\"username webauthn\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[autocomplete=\"username webauthn\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@autocomplete=\"username webauthn\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[aria-describedby=\"loginHeader usernameError\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[aria-describedby=\"loginHeader usernameError\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@aria-describedby=\"loginHeader usernameError\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-attr",
+        "selector": "[placeholder=\"Email or phone\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "css-tag-attr",
+        "selector": "input[placeholder=\"Email or phone\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "xpath-attr",
+        "selector": "xpath=//input[@placeholder=\"Email or phone\"]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      },
+      {
+        "type": "absolute-xpath",
+        "selector": "xpath=/html/body[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/input[1]",
+        "score": 70,
+        "updatedAt": "2026-01-13T05:02:28.734Z"
+      }
+    ],
+    "meta": {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "type": "email",
+        "name": "loginfmt",
+        "id": "i0116",
+        "maxlength": "113",
+        "class": "form-control ltr_override input ext-input text-box ext-text-box",
+        "aria-required": "true",
+        "data-report-event": "Signin_Email_Phone_Skype",
+        "data-report-trigger": "click",
+        "data-report-value": "Email_Phone_Skype_Entry",
+        "data-bind": "\n                    attr: { lang: svr.fApplyAsciiRegexOnInput ? null : 'en',\n                    autocomplete: svr.fEnablePasskeyAutofillUI ? 'username webauthn' : 'username' },\n                    externalCss: {\n                        'input': true,\n                        'text-box': true,\n                        'has-error': usernameTextbox.error },\n                    ariaLabel: tenantBranding.unsafe_userIdLabel || str['CT_PWD_STR_Username_AriaLabel'],\n                    ariaDescribedBy:\n                     svr.fWin10HostAccessibilityFix ?\n                        'winBodyHeader winBodySubHeader loginHeader' + (pageDescription && !svr.fHideLoginDesc ? ' loginDescription usernameError' : ' usernameError') :\n                        'loginHeader' + (pageDescription && !svr.fHideLoginDesc ? ' loginDescription usernameError' : ' usernameError'),\n                    textInput: usernameTextbox.value,\n                    hasFocusEx: usernameTextbox.focused,\n                    placeholder: $placeholderText",
+        "autocomplete": "username webauthn",
+        "aria-label": "Enter your email or phone",
+        "aria-describedby": "loginHeader usernameError",
+        "placeholder": "Email or phone",
+        "data-report-attached": "1"
+      },
+      "ariaLabel": "Enter your email or phone",
+      "role": "",
+      "parent": {
+        "tag": "div",
+        "class": "placeholderContainer"
+      }
+    },
+    "updatedAt": "2026-01-13T05:02:28.965Z"
+  }
+}
