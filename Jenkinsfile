@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node22'     // Must exist in Jenkins Global Tools
-        allure 'Allure'    // Must exist in Jenkins Global Tools
+        nodejs 'Node22'
+        allure 'Allure'
     }
 
     environment {
@@ -20,18 +20,18 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh '''
+                bat '''
                 node -v
                 npm -v
                 npm ci
-                npx playwright install --with-deps
+                npx playwright install
                 '''
             }
         }
 
         stage('Run Playwright Tests') {
             steps {
-                sh '''
+                bat '''
                 npx playwright test
                 '''
             }
@@ -47,8 +47,6 @@ pipeline {
                 jdk: '',
                 results: [[path: 'allure-results']]
             ])
-
-            archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
         }
 
         failure {
