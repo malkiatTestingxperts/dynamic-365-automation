@@ -43,7 +43,7 @@ pipeline {
             echo "Publishing Allure Report..."
 
             allure([
-                **commandline: 'Allure',** // Explicitly define which tool config to use
+                commandline: 'Allure',// Explicitly define which tool config to use
                 includeProperties: false,
                 jdk: '',
                 results: [[path: 'allure-results']]
@@ -55,3 +55,6 @@ pipeline {
         }
     }
 }
+
+
+
