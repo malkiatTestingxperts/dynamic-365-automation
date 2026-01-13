@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'NodeJS'     // Must exist in Jenkins Global Tools
+        nodejs 'Node22'     // Must exist in Jenkins Global Tools
         allure 'Allure'    // Must exist in Jenkins Global Tools
     }
 
