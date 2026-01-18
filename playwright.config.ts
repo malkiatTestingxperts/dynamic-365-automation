@@ -4,7 +4,7 @@ import { defineConfig } from '@playwright/test';
 import path from 'path';
 
 export default defineConfig({
-    // globalSetup: path.resolve('./src/utils/Login.ts'),
+    //globalSetup: path.resolve('./src/utils/Login.ts'),
     testDir: './tests',
     timeout: 900000,
     workers: 1,
