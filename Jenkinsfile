@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         nodejs 'Node22'
-        allure 'Allure'
     }
 
     environment {
@@ -42,12 +41,18 @@ pipeline {
         always {
             echo "Publishing Allure Report..."
 
-            allure([
-                commandline: 'Allure',// Explicitly define which tool config to use
-                includeProperties: false,
-                jdk: '',
-                results: [[path: 'allure-results']]
-            ])
+            script {
+                if (fileExists('allure-results')) {
+                    allure(
+                        includeProperties: false,
+                        jdk: '',
+                        results: [[path: 'allure-results']],
+                        tool: 'Allure'
+                    )
+                } else {
+                    echo 'Allure results not found, skipping report generation'
+                }
+            }
         }
 
         failure {
@@ -55,6 +60,3 @@ pipeline {
         }
     }
 }
-
-
-
