@@ -39,7 +39,7 @@ pipeline {
 
     post {
         always {
-            echo "Publishing Allure Report..."
+            echo "Publishing Allure Report"
 
             script {
                 if (fileExists('allure-results')) {
